@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import LandingPage from "./LandingPage";
+import BuilderPage from "./builder-page";
 import { builder } from "@builder.io/react";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
   builder.init("34638a978e0f47a49905f251b9264278");
   return (
     <div className="App">
-      <LandingPage />
+      <BuilderPage />
     </div>
   );
 }
